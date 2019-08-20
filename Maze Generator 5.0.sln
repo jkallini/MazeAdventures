@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze Generator 5.0", "Assembly-CSharp.csproj", "{DF412926-ECCB-E361-3C33-656487244FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze Generator 5.0", "Assembly-CSharp-firstpass.csproj", "{A473ADD7-14A9-5423-99B5-0BB3BD4E996E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze Generator 5.0", "Assembly-CSharp-Editor-firstpass.csproj", "{0E2BD362-B926-7FE3-ED52-2F5700C3119C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF412926-ECCB-E361-3C33-656487244FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF412926-ECCB-E361-3C33-656487244FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF412926-ECCB-E361-3C33-656487244FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF412926-ECCB-E361-3C33-656487244FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A473ADD7-14A9-5423-99B5-0BB3BD4E996E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A473ADD7-14A9-5423-99B5-0BB3BD4E996E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A473ADD7-14A9-5423-99B5-0BB3BD4E996E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A473ADD7-14A9-5423-99B5-0BB3BD4E996E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2BD362-B926-7FE3-ED52-2F5700C3119C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2BD362-B926-7FE3-ED52-2F5700C3119C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2BD362-B926-7FE3-ED52-2F5700C3119C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2BD362-B926-7FE3-ED52-2F5700C3119C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
