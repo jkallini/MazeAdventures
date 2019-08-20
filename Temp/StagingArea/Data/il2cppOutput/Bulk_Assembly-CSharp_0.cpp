@@ -710,8 +710,8 @@ extern RuntimeClass* ObjectU5BU5D_t2843939325_il2cpp_TypeInfo_var;
 extern String_t* _stringLiteral2755003869;
 extern String_t* _stringLiteral710035199;
 extern String_t* _stringLiteral1602589037;
-extern String_t* _stringLiteral3113511991;
-extern String_t* _stringLiteral3537434442;
+extern String_t* _stringLiteral2933500717;
+extern String_t* _stringLiteral1793997154;
 extern const uint32_t MazeCreator_CreateRooms_m2222705425_MetadataUsageId;
 extern RuntimeClass* Spawner_t1718608084_il2cpp_TypeInfo_var;
 extern const uint32_t MazeCreator_SpawnEnemies_m43644977_MetadataUsageId;
@@ -26793,13 +26793,13 @@ extern "C"  void InputTextManager_SetText_m2672069865 (InputTextManager_t2644309
 	}
 	{
 		int32_t L_6 = V_0;
-		if ((((int32_t)L_6) <= ((int32_t)((int32_t)50))))
+		if ((((int32_t)L_6) <= ((int32_t)((int32_t)30))))
 		{
 			goto IL_0042;
 		}
 	}
 	{
-		((InputTextManager_t2644309998_StaticFields*)il2cpp_codegen_static_fields_for(InputTextManager_t2644309998_il2cpp_TypeInfo_var))->set_mazeRows_4(((int32_t)50));
+		((InputTextManager_t2644309998_StaticFields*)il2cpp_codegen_static_fields_for(InputTextManager_t2644309998_il2cpp_TypeInfo_var))->set_mazeRows_4(((int32_t)30));
 		goto IL_005a;
 	}
 
@@ -26825,13 +26825,13 @@ IL_0054:
 IL_005a:
 	{
 		int32_t L_9 = V_1;
-		if ((((int32_t)L_9) <= ((int32_t)((int32_t)50))))
+		if ((((int32_t)L_9) <= ((int32_t)((int32_t)30))))
 		{
 			goto IL_006e;
 		}
 	}
 	{
-		((InputTextManager_t2644309998_StaticFields*)il2cpp_codegen_static_fields_for(InputTextManager_t2644309998_il2cpp_TypeInfo_var))->set_mazeColumns_5(((int32_t)50));
+		((InputTextManager_t2644309998_StaticFields*)il2cpp_codegen_static_fields_for(InputTextManager_t2644309998_il2cpp_TypeInfo_var))->set_mazeColumns_5(((int32_t)30));
 		goto IL_0086;
 	}
 
@@ -27996,8 +27996,8 @@ IL_016c:
 		ArrayElementTypeCheck (L_64, L_67);
 		(L_64)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject *)L_67);
 		ObjectU5BU5D_t2843939325* L_68 = L_64;
-		ArrayElementTypeCheck (L_68, _stringLiteral3113511991);
-		(L_68)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject *)_stringLiteral3113511991);
+		ArrayElementTypeCheck (L_68, _stringLiteral2933500717);
+		(L_68)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject *)_stringLiteral2933500717);
 		ObjectU5BU5D_t2843939325* L_69 = L_68;
 		int32_t L_70 = __this->get_mazeRows_2();
 		int32_t L_71 = L_70;
@@ -28005,8 +28005,8 @@ IL_016c:
 		ArrayElementTypeCheck (L_69, L_72);
 		(L_69)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject *)L_72);
 		ObjectU5BU5D_t2843939325* L_73 = L_69;
-		ArrayElementTypeCheck (L_73, _stringLiteral3537434442);
-		(L_73)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (RuntimeObject *)_stringLiteral3537434442);
+		ArrayElementTypeCheck (L_73, _stringLiteral1793997154);
+		(L_73)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (RuntimeObject *)_stringLiteral1793997154);
 		ObjectU5BU5D_t2843939325* L_74 = L_73;
 		int32_t L_75 = __this->get_mazeColumns_3();
 		int32_t L_76 = L_75;

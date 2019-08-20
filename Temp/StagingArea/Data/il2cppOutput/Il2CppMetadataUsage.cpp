@@ -8737,8 +8737,8 @@ String_t* _stringLiteral1961488126;
 String_t* _stringLiteral2755003869;
 String_t* _stringLiteral710035199;
 String_t* _stringLiteral1602589037;
-String_t* _stringLiteral3113511991;
-String_t* _stringLiteral3537434442;
+String_t* _stringLiteral2933500717;
+String_t* _stringLiteral1793997154;
 String_t* _stringLiteral1191559533;
 String_t* _stringLiteral2216068854;
 String_t* _stringLiteral2484228896;
@@ -17587,8 +17587,8 @@ extern void** const g_MetadataUsages[8848] =
 	(void**)(&_stringLiteral2755003869),
 	(void**)(&_stringLiteral710035199),
 	(void**)(&_stringLiteral1602589037),
-	(void**)(&_stringLiteral3113511991),
-	(void**)(&_stringLiteral3537434442),
+	(void**)(&_stringLiteral2933500717),
+	(void**)(&_stringLiteral1793997154),
 	(void**)(&_stringLiteral1191559533),
 	(void**)(&_stringLiteral2216068854),
 	(void**)(&_stringLiteral2484228896),
