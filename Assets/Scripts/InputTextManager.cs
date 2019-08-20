@@ -17,11 +17,11 @@ public class InputTextManager : MonoBehaviour {
         int num1;
         int num2;
         if (int.TryParse(width.text, out num1) && int.TryParse(length.text, out num2)) {
-            if      (num1 > 50) mazeRows = 50;
+            if      (num1 > 30) mazeRows = 30;
             else if (num1 < 5)  mazeRows = 5;
             else                mazeRows = num1;
 
-            if      (num2 > 50) mazeColumns = 50;
+            if      (num2 > 30) mazeColumns = 30;
             else if (num2 < 5)  mazeColumns = 5;
             else                mazeColumns = num2;
         }

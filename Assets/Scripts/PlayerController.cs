@@ -35,15 +35,11 @@ public class PlayerController : MonoBehaviour {
         // Initialize();
 	}
 
-	// int floorMask;
-	// float camRayLength = 200f;
-
 	public void Initialize() {
 
         controller = GetComponent<CharacterController>();
         // floorMask = LayerMask.GetMask("Default");
         rotationMask = new Vector3(0, 1, 0); // set rotation axis
-                                             // rotateAroundObject = GetComponent<Transform>(); // transform of main player
         InitializeText();
 	}
 
@@ -64,8 +60,6 @@ public class PlayerController : MonoBehaviour {
 
 	void FixedUpdate () {
 
-        // Vector3 weaponPosition = new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z);
-        // weapon.position = weaponPosition;
         if (!dead) {
             moveDirection = new Vector3(Input.GetAxisRaw("Horizontal"), moveDirection.y, Input.GetAxisRaw("Vertical"));
             moveDirection.Normalize();
