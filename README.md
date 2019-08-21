@@ -15,7 +15,7 @@ create a **unique, random maze at runtime**. So no memorizing the paths here! Th
 is infinite, which means endless fun for the player.
 
 This game isn't *just* about getting through the maze, though. The evil Glowies have locked your
-Pill friends in rooms, and hid the keys all over the maze. You have to find all the keys and unlock all of
+Pill friends in rooms, and hid the keys all over the maze. You have to find the keys and unlock all of
 the rooms before you can leave the maze!
 
 The Glowies, the keys, and the rooms are distributed randomly across the maze using [Poisson disk sampling](http://www.cemyuksel.com/cyCodeBase/soln/poisson_disk_sampling.html). This ensures that they will be in new
@@ -25,13 +25,13 @@ the maze.
 ## Completed Features
 
 ### Menu and Maze Generation
-- [x] Main menu screen allows the player to select the dimensions of the maze.
+- [x] Main menu screen allows the player to input the desired dimensions of the maze.
 - [x] During a level, the player can pause at any time, and return to the main menu.
 - [x] Random mazes generated at runtime.
   - [x] Recursive division maze generation algorithm coded in Unity from scratch.
 - [x] Poisson disk distribution used to scatter rooms, enemies, health, and keys across the maze with uniform randomness.
   - [x] Exactly same number of keys and rooms are generated.
-  - [x] Objects are placed randomly, but cannot spawn in the same places.
+  - [x] Objects are placed randomly but cannot spawn in the same locations.
 
 ### Characters
 - [x] Player can rotate in the direction of the cursor and fire projectiles on click.
@@ -43,8 +43,8 @@ the maze.
   
 ### Assets, Animations, and UI
 - [x] All 3D models and animations created from scratch in Unity.
-- [x] Player and enemies flash when receiving damage.
-- [x] Player has a main health bar that decreases when damaged, and increases after finding health.
+- [x] Player and enemies flash while taking damage.
+- [x] Player's health bar decreases when the player is damaged and increases after the player finds health.
 - [x] All enemies have individual health bars.
 - [x] Fire enemies animated with spinning projectiles.
 - [x] Collectible items rotate.
@@ -55,7 +55,7 @@ the maze.
 ## Directions
 
 Use `WASD` to move around. Your cursor indicates the direction you want to shoot. Left-click to shoot a
-pellet. If you have a key, you can use it to unlock a room. Stand next to door of the room and press
+pellet. If you have a key, you can use it to unlock a room. Stand next to the door of the room and press
 `enter` to unlock the door. Once all rooms have been opened, navigate to the exit in the top-right corner
 of the maze.
 
@@ -78,7 +78,7 @@ alt="Key">
 
 
 ### Room
-These are rooms where your fellow pills are trapped!
+These are rooms where your fellow Pills are trapped!
 
 <img src="https://github.com/jkallini/MazeAdventures/blob/master/Images/room.png" width="200"
 alt="Room">
